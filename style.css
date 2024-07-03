@@ -41,7 +41,7 @@ body {
     background-color: #218838;
 }
 @media (max-width: 600px) {
-    .imagem{
+    img{
         height: 50%;
         width: 100%;
     }
@@ -53,5 +53,9 @@ body {
     }
     .form-group button {
         padding: 8px;
+    }
+    .aga1{
+        display: flex;
+        justify-content: center;
     }
 }
