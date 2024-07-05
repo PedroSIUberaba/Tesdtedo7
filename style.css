@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +8,22 @@ body {
     margin: 0;
     padding: 10px;
 }
+.real h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CR7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CR7 H1{
+    text-transform: uppercase;
+}
+
 .form-container {
     background-color: #fff;
     padding: 20px;
@@ -39,6 +55,11 @@ body {
 }
 .form-group button:hover {
     background-color: #218838;
+}
+
+strong{
+    text-transform: uppercase;
+    font-size: large;
 }
 @media (max-width: 600px) {
     img{
